@@ -1,0 +1,46 @@
+programa
+{
+//3.Faça um programa que pergunte ao paciente se está sentindo os sintomas da
+//COVID (de acordo com o folheto) e informe se está ou não com COVID.
+//Desafio: informe também a intensidade dos sintomas (comuns ou graves)
+	
+	funcao inicio()
+	{
+	caracter coriza, tosse, febre, DorDeGarganta, DificuldadeParaRespirar
+
+	
+		escreva("voce esta com coriza? ")
+		leia(coriza)
+
+		escreva("voce esta com tosse?")
+          leia(tosse)
+
+          escreva("voce esta com dor de garganta? ")
+          leia(DorDeGarganta)
+
+           escreva("voce esta com febre?")
+           leia(febre)
+
+           escreva("voce esta com dificuldade para respirar?")
+           leia(DificuldadeParaRespirar)
+
+	   se(tosse == 's' e coriza == 's' e febre == 's' e DorDeGarganta == 's'e  DificuldadeParaRespirar == 's') 
+	   {  escreva ("voce esta com graves sintomas de covid") }
+	   senao
+       se ( tosse == 's'e coriza == 's' e DorDeGarganta == 's')
+        escreva("fique tranquilo voce esta  com sintomas comuns" )
+        senao
+        escreva("voce nao esta doente")
+        
+      
+
+      
+         
+           
+          
+		
+
+
+		
+	}
+}

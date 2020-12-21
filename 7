@@ -1,0 +1,27 @@
+programa
+{
+	//7.Faça um Programa que leia um ano qualquer e informe se ele é bissexto. Se for
+    //informado um ano negativo ou 0 o ano atual deve ser considerado.
+	funcao inicio()
+	{
+		inteiro ano = 0
+		escreva("informe um ano:")
+		leia(ano)
+		se(ano<=0)
+	{
+		escreva("O ano 2020 é bissexto")
+	}
+	senao
+	{
+		se(ano % 4==0)
+		{
+			escreva("O ano ", ano, " é bissexto")
+		}
+		senao
+		{
+			escreva("O ano ", ano, " não é bissexto")
+		}
+	}
+	
+	}
+}
